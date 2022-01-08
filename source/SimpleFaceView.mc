@@ -5,8 +5,6 @@ import Toybox.WatchUi;
 
 class SimpleFaceView extends WatchUi.WatchFace {
 
-    var myBitmap;
-
     function initialize() {
         WatchFace.initialize();
     }
@@ -42,12 +40,13 @@ class SimpleFaceView extends WatchUi.WatchFace {
     }
 
     private function setHeartRate() {
-        var hr = Activity.Info.currentHeartRate;
+        var hr = Activity.getActivityInfo().currentHeartRate;
         if (hr == null) {
             hr = "--";
         }
         var hrText = View.findDrawableById("HeartRate");
-        hrText.setText(hr);
+        var hrString = Lang.format("$1$", [hr]);
+        hrText.setText(hrString);
     }
 
     private function setBatteryLife() {
@@ -67,12 +66,13 @@ class SimpleFaceView extends WatchUi.WatchFace {
     }
 
     private function setCalories() {
-        var cals = Activity.Info.calories;
+        var cals = ActivityMonitor.getInfo().calories;
         if (cals == null) {
             cals = "--";
         }
         var calText = View.findDrawableById("Calories");
-        calText.setText(cals);
+        var calString = Lang.format("$1$", [cals]);
+        calText.setText(calString);
     }
 
     // Called when this View is removed from the screen. Save the

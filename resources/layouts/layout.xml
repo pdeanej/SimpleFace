@@ -1,7 +1,7 @@
 <layout id="WatchFace">
     <label id="TimeLabel" x="center" y="center" font="Graphics.FONT_LARGE" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_DK_BLUE" />
-    <label id="HeartRate" x="center" y="70%" font="Graphics.FONT_LARGE" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_DK_BLUE" />
+    <label id="HeartRate" x="center" y="65%" font="Graphics.FONT_LARGE" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_DK_BLUE" />
     <label id="BatteryLife" x="center" y="top" font="Graphics.FONT_LARGE" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_DK_BLUE" />
     <label id="Date" x="center" y="20%" font="Graphics.FONT_LARGE" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_DK_BLUE" />
-    <label id="Calories" x="center" y="90%" font="Graphics.FONT_LARGE" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_DK_BLUE" />
+    <label id="Calories" x="center" y="85%" font="Graphics.FONT_LARGE" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_DK_BLUE" />
 </layout>
