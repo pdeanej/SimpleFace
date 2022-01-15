@@ -4,4 +4,5 @@
     <label id="BatteryLife" x="center" y="top" font="Graphics.FONT_LARGE" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_DK_BLUE" />
     <label id="Date" x="center" y="20%" font="Graphics.FONT_LARGE" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_DK_BLUE" />
     <label id="Calories" x="center" y="85%" font="Graphics.FONT_LARGE" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_DK_BLUE" />
+    <bitmap id="HeartPic" x="65" y="65%" filename="../drawables/heart.png" />
 </layout>
